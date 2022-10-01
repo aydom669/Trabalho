@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Css/Sass-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Css/Sass-->
+
+    <!--Swiper-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!--Swiper-->
+    <title>Teste</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <figure>
+                LOGO
+            </figure>
+        </div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Garotas</a>
+            <a href="#">Trans</a>
+            <a href="#">Garotos</a>
+        </nav>
+    </header>
+    <main class="main">
+        <form method="post">
+            <div class="form__titulo">
+                <p>FILTRO</p>
+            </div>
+            <div class="form__form--label">
+                <div>
+                    <label>
+                        Cor do Cabelo
+                    </label><br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>
+                        Etinia
+                    </label><br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>
+                        Tipo de Corpo
+                    </label><br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>
+                        Cidade
+                    </label><br>
+                    <input type="text">
+                </div>
+            </div>
+            <input class="btn" type="submit" value="FILTRAR">
+        </form>
+        <div class="main__container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                IMG_1
+              </div>
+              <div class="swiper-slide">
+                IMG_2
+              </div>
+              <div class="swiper-slide">
+                IMG_3
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="main__container--card">
+            <div class="card"></div>
+            <div class="card"></div> 
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div> 
+            
+          </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
