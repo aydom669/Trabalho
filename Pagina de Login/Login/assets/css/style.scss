@@ -1,0 +1,104 @@
+// Root / Reset / Font
+
+
+
+$corInputs: #ff0000;
+$bordaCor: #6f0101;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600&family=Berkshire+Swash&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Josefin+Sans&family=Karla:wght@400;700&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Overpass:wght@300;600&family=Poppins:ital,wght@0,100;0,600;1,100;1,300&family=Raleway:wght@400;700&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    width: 24rem;
+    height: 24rem;
+    background: rgb(11, 10, 10);
+    border: 2px solid $corInputs;
+    -webkit-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+    -moz-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+    box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+    margin-top: 2rem;
+    color: #fff;
+    padding: 1rem 2rem;
+
+
+    .form__titulo {
+        font-size: 1.2rem;
+        color: #ff0000;
+        margin-bottom: 2rem;
+    }
+
+    .form__box {
+        width: 100%;
+        margin: 2rem 0;
+
+        .form__label {
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .form__input {
+            padding: 0.8rem 0;
+            width: 100%;
+            color: #fff;
+            background: rgb(11, 10, 10);
+            border-bottom: 1px solid rgba(255, 0, 0, 0.64);
+            letter-spacing: 1px;
+
+        }
+
+        .form__input--btn {
+            width: 100%;
+            padding: 1rem 2rem;
+            border: none;
+            font-size: 1rem;
+            font-weight: 400;
+            border-radius: 8px;
+            -webkit-box-shadow: -5px 11px 48px -16px rgba(255, 0, 0, 1);
+            -moz-box-shadow: -5px 11px 48px -16px rgba(255, 0, 0, 1);
+            box-shadow: -5px 11px 48px -16px rgba(255, 0, 0, 1);
+            background: #ff0000;
+            color: #fff;
+            cursor: pointer;
+
+            &:hover {
+                -webkit-box-shadow: -2px -1px 73px 1px rgba(255, 0, 0, 1);
+                -moz-box-shadow: -2px -1px 73px 1px rgba(255, 0, 0, 1);
+                box-shadow: -2px -1px 73px 1px rgba(255, 0, 0, 1);
+                transition: 0.8s;
+            }
+        }
+    }
+
+    a {
+        color: #ff0000;
+
+        &:hover{
+            color: rgba(255, 0, 0, 0.64);
+           
+        }
+    }
+
+}
