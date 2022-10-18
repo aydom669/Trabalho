@@ -137,13 +137,16 @@ body {
         height: 20rem;
         background: #0b0a0a;
         border: 2px solid #ff0000;
-        -webkit-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
-        -moz-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
-        box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+        -webkit-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+        -moz-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+        box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
         margin-top: 2rem; }
         .main .main__container .main__container--card .card:hover {
           transform: translatey(-20px);
-          transition: linear 0.5s; }
+          transition: linear 0.5s;
+          -webkit-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+          -moz-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+          box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59); }
   .main .swiper-button-next {
     color: #ff0000; }
   .main .swiper-button-prev {

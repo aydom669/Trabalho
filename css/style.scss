@@ -199,14 +199,17 @@ body {
                 height: 20rem;
                 background: rgb(11, 10, 10);
                 border: 2px solid $corInputs;
-                -webkit-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
-                -moz-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
-                box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59); 
+                -webkit-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                -moz-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
                 margin-top: 2rem;
 
                 &:hover {
                     transform: translatey(-20px);
                     transition: linear 0.5s;
+                    -webkit-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+                    -moz-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+                    box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
 
 
                 }
