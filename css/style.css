@@ -137,9 +137,9 @@ body {
         height: 20rem;
         background: #0b0a0a;
         border: 2px solid #ff0000;
-        -webkit-box-shadow: -2px -1px 79px -13px red;
-        -moz-box-shadow: -2px -1px 79px -13px red;
-        box-shadow: -2px -1px 79px -13px red;
+        -webkit-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+        -moz-box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
+        box-shadow: -3px -5px 40px 12px rgba(255, 0, 0, 0.59);
         margin-top: 2rem; }
         .main .main__container .main__container--card .card:hover {
           transform: translatey(-20px);
