@@ -176,6 +176,16 @@ body {
             background: #ff0000;
             color: #fff;
             cursor: pointer;
+
+            &:hover {
+                transition: 0.9s;
+                background: $corInputs;
+                -webkit-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                -moz-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                
+
+            }
         }
     }
 
