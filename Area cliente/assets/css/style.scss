@@ -11,7 +11,7 @@ $cor2: #6f0101;
 }
 
 html {
-    overflow: hidden;
+   // overflow: hidden;
 }
 
 
@@ -27,9 +27,10 @@ main {
     display: flex;
 
     .perfil__lateral {
-        width: 30%;
+        line-height: 2;
+        width: 40%;
         display: flex;
-        height: 100vh;
+        height: 100%;
         background: rgb(11, 10, 10);
 
 
@@ -41,24 +42,33 @@ main {
                 padding: 1rem;
             }
 
-
-
             img {
                 width: 100%;
                 height: 20%;
+                cursor: pointer;
 
             }
-        }
 
-        .perfil__lanterl--text {
-            position: relative;
+            &:hover {
+
+                .barra{
+                    background: #ff0000;
+                    height: 5px;
+                    animation: barra linear 1s;
+                    width: 100%;
+                    -webkit-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                    -moz-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                    box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
+                }
+            }
+
         }
     }
 
     .main__conteudo {
         width: 100%;
         height: 100%;
-        border: 1px solid rgb(188, 12, 12);
+       // border: 1px solid rgb(188, 12, 12);
 
         .main__container--card {
             width: 100%;
@@ -75,7 +85,6 @@ main {
                 width: 18rem;
                 height: 20rem;
                 background: rgb(11, 10, 10);
-                border: 2px solid $cor1;
                 -webkit-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
                 -moz-box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
                 box-shadow: 7px -4px 102px 0px rgba(255, 0, 0, 0.64);
@@ -94,4 +103,14 @@ main {
         }
     }
 
+}
+
+@keyframes barra {
+    0% {
+        width: 10%;
+    } 10% {
+        width: 40;
+    } 100% {
+        width: 100%;
+    }
 }
