@@ -58,6 +58,12 @@ body {
             justify-content: space-between;
             align-items: center;
             padding: 0.5rem 0.5rem;
+
+            .nav__box--input{
+                border: none;
+                width: 100%;
+                outline: none;
+            }
         }
 
         .nav__km {
@@ -84,6 +90,12 @@ body {
             align-items: center;
             margin-left: 0.5rem;
             padding: 0.5rem 0.5rem;
+
+            .nav__box--input{
+                outline: none;
+                width: 80%;
+                border: none;
+            }
 
             span {
                 cursor: pointer;
